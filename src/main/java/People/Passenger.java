@@ -2,9 +2,9 @@ package People;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class Passenger {
+public class Passenger implements IBook {
 
-    private static final AtomicInteger count = new AtomicInteger(0);
+    private static int passengerCount = 0;
     String name;
     String email;
     int id;
@@ -13,7 +13,7 @@ public class Passenger {
     public Passenger(String name, String email){
         this.name =name;
         this.email=email;
-        this.id = count.incrementAndGet();
+        this.id = ++passengerCount;
     }
 
 

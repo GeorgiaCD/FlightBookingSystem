@@ -2,6 +2,8 @@ package People;
 
 public class Admin {
 
-//    public addFlight();
+   public void addFlight();
+   public void removeFlight();
+
 
 }
