@@ -6,8 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="39a7d707-42eb-4c7b-a9ed-25d767a07a5f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Airline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Airline.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/People/IBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/People/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/People/Admin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/People/Passenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/People/Passenger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/People/PassengerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/People/PassengerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,9 +21,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -44,14 +47,27 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="People" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="People" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PassengerTest">
+  <component name="RunManager" selected="JUnit.PassengerTest.getIdTim">
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Runner" />
+      <module name="FlightBookingSystem" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PassengerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FlightBookingSystem" />
       <extension name="coverage">
@@ -83,6 +99,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PassengerTest.getIdTim" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FlightBookingSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="People.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="People" />
+      <option name="MAIN_CLASS_NAME" value="People.PassengerTest" />
+      <option name="METHOD_NAME" value="getIdTim" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="People in FlightBookingSystem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FlightBookingSystem" />
       <extension name="coverage">
@@ -99,6 +131,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PassengerTest.getIdTim" />
+        <item itemvalue="Application.Runner" />
         <item itemvalue="JUnit.PassengerTest" />
         <item itemvalue="JUnit.People in FlightBookingSystem" />
         <item itemvalue="JUnit.PassengerTest.getId" />

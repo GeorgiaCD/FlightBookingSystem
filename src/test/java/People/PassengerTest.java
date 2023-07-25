@@ -14,9 +14,9 @@ class PassengerTest {
 
  @BeforeEach
     void setUp() {
-    Tim = new Passenger("Tim", "tim@email.com");
-    Tam = new Passenger("Tam", "tam@gmail.com");
-    Lucy = new Passenger("Lucy", "lucy@email.com");
+    Tim = new Passenger();
+    Tam = new Passenger();
+    Lucy = new Passenger();
     }
 
     @Test
@@ -36,6 +36,6 @@ class PassengerTest {
 
    @Test
    void getIdTim() {
-      assertEquals(2, Tim.getId());
+      assertEquals(1, Tim.getId());
    }
 }
