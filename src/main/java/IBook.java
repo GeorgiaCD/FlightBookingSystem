@@ -1,5 +1,3 @@
-package People;
-
 public interface IBook {
 
     boolean isRunning();
@@ -7,6 +5,7 @@ public interface IBook {
     String promptForName();
     String promptForEmail();
     String promptForDestination();
-    String processDestination(String destination) throws Exception;
+    String processDestination(String inputDestination, Airline airline) throws Exception;
 //    Flight displayAllFlights();
+
 }

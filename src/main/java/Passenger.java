@@ -1,5 +1,3 @@
-package People;
-
 public class Passenger implements IBook {
 
     private static int passengerCount = 0;
@@ -56,22 +54,37 @@ public class Passenger implements IBook {
         return "Where do you want to go?";
     }
 
+
+//    public String processDestination(String destination) throws Exception {
+//        return null;
+//    }
+
     public void processName(String name) {
         this.name =name;
-
     }
+
+
     public void processEmail(String email){
         this.email=email;
     }
-//    @Override
-//    public String processDestination(String inputDestination) throws Exception {
-//        if (inputDestination = )
-//
-//        return null;
-//    }
+
+
+    @Override
+    public String processDestination(String inputDestination, Airline airline) throws Exception {
+        if (airline.getDestinations().contains(inputDestination)) {
+            return "That is a match";
+        } throw new Exception();
+    }
+
+
+
+
+
+
+
 
 //    @Override
 //    public Flight displayAllFlights() {
 //        return null;
-//    }
+
 }

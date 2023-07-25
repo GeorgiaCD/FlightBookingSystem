@@ -1,5 +1,3 @@
-import People.Passenger;
-
 import java.util.ArrayList;
 import java.util.Random;
 
@@ -11,6 +9,7 @@ public class Flight {
 
     public Flight(String destination){
         Random rand = new Random();
+        this.destination = destination;
         this.id = rand.nextInt(1000, 5000);
         this.passengers = new ArrayList<>();
     }
@@ -26,6 +25,7 @@ public class Flight {
     public ArrayList<Passenger> getPassengers() {
         return passengers;
     }
+
 
 
     public void addPassenger(Passenger newPassenger){
